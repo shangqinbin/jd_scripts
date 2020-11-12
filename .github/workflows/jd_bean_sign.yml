@@ -3,6 +3,13 @@
 
 name: jd_bean_sign
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: ''
+  watch:
+    types: started
+
 jobs:
   build:
 
